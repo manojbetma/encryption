@@ -1,8 +1,10 @@
-# PHP Encryption/Decryption data using openssl_decrypt with AES-256-CBC Encryption Method.
+# PHP Encryption/Decryption.
 
+PHP Encryption/Decryption data using openssl_decrypt with AES-256-CBC Encryption Method.
  
+## How to use
 
-<?php 
+```sh
 //For Encryption :
  $objMecrypt= new Mecrypt();
  $ecrypted_string= $objMecrypt->Encryption("test-string");
@@ -18,5 +20,5 @@ $decrypted_string=$objMecrypt->Decryption($ecrypted_string);
 
 echo "Encrypted string :".$ecrypted_string;
 echo "<br/>Decrypted string :".$decrypted_string;
+```
 
-?>
